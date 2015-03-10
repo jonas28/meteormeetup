@@ -1,0 +1,16 @@
+<template name="postDetails">
+    <div class="post">
+        <div class="post-content">
+            <img src="{{picture}}">
+            <h3><a href="https://www.facebook.com/{{from_id}}/posts/{{object_id}}" target="_blank">{{object_id}}</a></h3>
+            <ul>
+                <li>Likes: {{likes}}</li>
+                <li>Comments: {{comments}}</li>
+                <li>Shares: {{shares}}</li>
+                <li>Impressions: {{post_impressions}}</li>
+            </ul>
+        </div>
+    </div>
+</template>
+
+

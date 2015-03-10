@@ -1,8 +1,9 @@
 <template name="postItem">
     <div class="post">
         <div class="post-content">
-            <h3><a href="{{url}}">{{title}}</a><span>{{domain}}</span></h3>
+            <img src="{{picture}}">
+            <h3><a href="https://www.facebook.com/{{from_id}}/posts/{{object_id}}" target="_blank">{{object_id}}</a></h3>
         </div>
-        <a href="{{pathFor 'postPage'}}" class="discuss btn btn-default">Discuss</a>
+        <a href="{{pathFor 'postPage'}}" class="discuss btn btn-default">Details</a>
     </div>
 </template>
